@@ -1,10 +1,12 @@
 #include <unistd.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _putchar - prints out any character passed to it
  * @c: The character being passed
- */
-void _putchar(char c)
+  */
+void _putchar(char c);
 {
         putchar(c);
+
 }
